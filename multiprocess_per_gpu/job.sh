@@ -1,6 +1,6 @@
 #!/bin/bash -eu
-#PBS -l select=1:ncpus=4:ompthreads=1
-#PBS -l walltime=6:00:00
+#PBS -l select=1:ncpus=16:ompthreads=1:ngpus=1
+#PBS -l walltime=12:00:00
 
 prefix=$PREFIX_BENCHMARK_HPC
 prefix_input=$prefix/input_data

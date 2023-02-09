@@ -10,7 +10,7 @@ ntb=2,  ! Periodic boundary condition with constant pressure
 ntp=1,  ! md with isotropic position scaling
 
 dt=0.0001,       ! time step is 0.1fs
-nstlim=50, ! the number of steps(0.1fs * 500000 = 50ps)
+nstlim=100000,   ! the number of steps(0.1fs * 100000 = 10ps)
 cut=9.0,         ! Cutoff of nonbonded interactions
 
 ntr=0,   ! Don't restrict
