@@ -1,5 +1,5 @@
 #!/bin/bash -eux
-#PBS -l select=1:ncpus=16:ompthreads=1:mpiprocs=16:ngpus=1
+#PBS -l select=1:ncpus=16:ompthreads=1:mpiprocs=8:ngpus=1
 #PBS -l walltime=12:00:00
 
 prefix=$PREFIX_BENCHMARK_HPC
@@ -11,9 +11,9 @@ PMEMD=pmemd.cuda.MPI
 # Input ----------
 
 n_times=1
-n_procs=8
+n_procs=4
 
-echo "select=1:ncpus=16:ompthreads=1:mpiprocs=16:ngpus=1"
+echo "select=1:ncpus=16:ompthreads=1:mpiprocs=8:ngpus=1"
 
 # ----------------
 
