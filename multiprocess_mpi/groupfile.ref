@@ -1,0 +1,1 @@
+-i mdin -p prmtop -c restart -ref inpcrd -o mdout_IPROC -r restart_IPROC -x mdcrd_IPROC -inf mdinfo_IPROC
