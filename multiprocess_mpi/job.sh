@@ -1,12 +1,12 @@
 #!/bin/bash -eu
-#PBS -l select=1:ncpus=16:ompthreads=1:mpiprocs=16:ngpus=1
+#PBS -l select=1:ncpus=64:ompthreads=4:mpiprocs=16
 #PBS -l walltime=12:00:00
 
 prefix=$PREFIX_BENCHMARK_HPC
 prefix_input=$prefix/input_data
 prefix_bench=$prefix/multiprocess_per_gpu
 FAST_WORKING_DIR=/lwork/users/$USER/$PBS_JOBID
-PMEMD=pmemd.cuda.MPI
+PMEMD=pmemd.MPI
 
 # Input ----------
 
