@@ -6,7 +6,7 @@ prefix=$PREFIX_BENCHMARK_HPC
 prefix_input=$prefix/input_data
 prefix_bench=$prefix/multiprocess_per_gpu
 FAST_WORKING_DIR=/lwork/users/$USER/$PBS_JOBID
-PMEMD=pmemd
+PMEMD=pmemd.cuda
 
 # Input ----------
 
